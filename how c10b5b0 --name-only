@@ -1,0 +1,49 @@
+[33mcommit 0d5a3145a0c790724271dbe2b6b8f9988bb9ac24[m
+Author: nithya2709 <23211a05d5@bvrit.ac.in>
+Date:   Tue Mar 10 13:11:58 2026 +0530
+
+    Initial portfolio deployment
+
+.vscode/settings.json
+ADD_PHOTO_INSTRUCTIONS.md
+QUICKSTART.md
+README.md
+README_SIMPLE.md
+TROUBLESHOOTING.md
+backend
+frontend/.gitignore
+frontend/README.md
+frontend/eslint.config.js
+frontend/index.html
+frontend/package-lock.json
+frontend/package.json
+frontend/public/images/ADD_PHOTO_HERE.md
+frontend/public/images/README.md
+frontend/public/images/profile-photo.jpg
+frontend/public/vite.svg
+frontend/src/App.css
+frontend/src/App.jsx
+frontend/src/assets/react.svg
+frontend/src/components/Contact.jsx
+frontend/src/components/Hero.jsx
+frontend/src/components/Navbar.jsx
+frontend/src/components/PhotoSection.jsx
+frontend/src/components/Skills.jsx
+frontend/src/index.css
+frontend/src/main.jsx
+frontend/src/services/api.js
+frontend/vite.config.js
+images/FSD.png
+images/README.md
+images/afe.png
+images/agentforce.png
+images/efset.png
+images/frontend.png
+images/oracle.png
+images/profile-photo.jpg
+images/project-3.png
+images/project1.png
+images/project2.png
+index.html
+script.js
+styles.css
