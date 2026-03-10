@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nithya Sree — Developer Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">NS<span class="dot">.</span></div>
+            <ul class="nav-menu" id="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#achievements" class="nav-link">Achievements</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#certificates" class="nav-link">Certificates</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <i class="fas fa-sun" id="theme-icon"></i>
+                </button>
+                <div class="hamburger" id="hamburger">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg-grid"></div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge">
+                        <span class="badge-dot"></span>
+                        B.Tech CSE Student &middot; BVRIT
+                    </div>
+                    <h1 class="hero-name">Nithya<br><span class="accent">Sree</span></h1>
+                    <h2 class="hero-role">
+                        <span class="typing-text"></span><span class="cursor">|</span>
+                    </h2>
+                    <p class="hero-description">Aspiring full-stack developer crafting responsive and scalable web applications. 
+Focused on writing clean code and building solutions that solve real-world problems.</p>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn btn-primary">
+                            <i class="fas fa-file-pdf"></i> Resume
+                        </a>
+                        <a href="#contact" class="btn btn-outline">
+                            <i class="fas fa-paper-plane"></i> Hire Me
+                        </a>
+                    </div>
+                    <div class="hero-social">
+                        <a href="https://www.linkedin.com/in/kapuganti-nithya-sree-43b248293/" class="social-pill" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Nithya2709" class="social-pill" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/i_am_nithya__/" class="social-pill" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="mailto:23211a05d5@gmail.com" class="social-pill" aria-label="Email"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="image-frame">
+                        <div class="frame-accent top-left"></div>
+                        <div class="frame-accent bottom-right"></div>
+                        <img src="images/profile-photo.jpg" alt="Nithya Sree" class="profile-photo" id="profile-photo"
+                             onerror="this.src='https://ui-avatars.com/api/?name=Nithya+Sree&size=400&background=10b981&color=fff&font-size=0.4'">
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat-chip"><span class="stat-num">4+</span><span class="stat-label">Projects</span></div>
+                        <div class="stat-chip"><span class="stat-num">10+</span><span class="stat-label">Certs</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span>Scroll</span>
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">01 &mdash; About</span>
+                <h2 class="section-title">Who I Am</h2>
+            </div>
+
+            <div class="about-layout">
+                <!-- Photo Card -->
+                <div class="about-photo-card">
+                    <div class="about-photo-wrap">
+                        <img src="images/profile-photo.jpg" alt="Nithya Sree"
+                             onerror="this.src='https://ui-avatars.com/api/?name=Nithya+Sree&size=500&background=10b981&color=fff&font-size=0.35'">
+                        <div class="photo-label">
+                            <i class="fas fa-map-marker-alt"></i> Hyderabad, India
+                        </div>
+                    </div>
+                    <div class="about-quick">
+                        <div class="quick-item"><i class="fas fa-graduation-cap"></i> B.Tech CSE &middot; 2023&ndash;2027</div>
+                        <div class="quick-item"><i class="fas fa-university"></i> BVRIT</div>
+                        <div class="quick-item"><i class="fas fa-code"></i> Front-End Developer</div>
+                    </div>
+                </div>
+
+                <!-- Info Grid -->
+                <div class="about-info">
+                    <div class="about-summary">
+                        <h3>Professional Summary</h3>
+                        <p>I'm a passionate Computer Science student with hands-on experience in front-end development using <strong>ReactJS</strong> and a strong foundation in object-oriented programming with <strong>Java</strong>.</p>
+                        <p>I love turning complex problems into simple, beautiful interfaces. Currently exploring full-stack development while sharpening my problem-solving skills through competitive programming.</p>
+                    </div>
+
+                    <div class="about-cards">
+                        <div class="info-card">
+                            <div class="info-card-icon"><i class="fas fa-lightbulb"></i></div>
+                            <h4>Soft Skills</h4>
+                            <div class="tag-group">
+                                <span class="soft-tag">Problem Solving</span>
+                                <span class="soft-tag">Teamwork</span>
+                                <span class="soft-tag">Communication</span>
+                                <span class="soft-tag">Leadership</span>
+                                <span class="soft-tag">Adaptability</span>
+                                <span class="soft-tag">Time Management</span>
+                            </div>
+                        </div>
+
+                        <div class="info-card">
+                            <div class="info-card-icon"><i class="fas fa-heart"></i></div>
+                            <h4>Interests</h4>
+                            <div class="interest-grid">
+                                <span><i class="fas fa-code"></i> Coding</span>
+                                <span><i class="fas fa-book"></i> Reading</span>
+                                <span><i class="fas fa-music"></i> Music</span>
+                                <span><i class="fas fa-camera"></i> Photography</span>
+                                <span><i class="fas fa-gamepad"></i> Gaming</span>
+                                <span><i class="fas fa-plane"></i> Travel</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">02 &mdash; Skills</span>
+                <h2 class="section-title">Tech Stack</h2>
+            </div>
+
+            <!-- Tab Buttons -->
+            <div class="skills-tabs">
+                <button class="tab-btn active" data-tab="all">All</button>
+                <button class="tab-btn" data-tab="frontend">Frontend</button>
+                <button class="tab-btn" data-tab="backend">Backend</button>
+                <button class="tab-btn" data-tab="languages">Languages</button>
+                <button class="tab-btn" data-tab="frameworks">Frameworks</button>
+            </div>
+
+            <div class="skills-wrapper">
+                <div class="skill-item" data-category="frontend">
+                    <div class="skill-top">
+                        <div class="skill-label"><i class="fab fa-html5 html-color"></i><span>HTML5</span></div>
+                        <span class="skill-pct">90%</span>
+                    </div>
+                    <div class="skill-track"><div class="skill-fill" data-width="90"></div></div>
+                </div>
+                <div class="skill-item" data-category="frontend">
+                    <div class="skill-top">
+                        <div class="skill-label"><i class="fab fa-css3-alt css-color"></i><span>CSS3</span></div>
+                        <span class="skill-pct">85%</span>
+                    </div>
+                    <div class="skill-track"><div class="skill-fill" data-width="85"></div></div>
+                </div>
+                <div class="skill-item" data-category="languages">
+                    <div class="skill-top">
+                        <div class="skill-label"><i class="fab fa-js js-color"></i><span>JavaScript</span></div>
+                        <span class="skill-pct">80%</span>
+                    </div>
+                    <div class="skill-track"><div class="skill-fill" data-width="80"></div></div>
+                </div>
+                <div class="skill-item" data-category="frameworks">
+                    <div class="skill-top">
+                        <div class="skill-label"><i class="fab fa-react react-color"></i><span>React JS</span></div>
+                        <span class="skill-pct">70%</span>
+                    </div>
+                    <div class="skill-track"><div class="skill-fill" data-width="70"></div></div>
+                </div>
+                <div class="skill-item" data-category="languages">
+                    <div class="skill-top">
+                        <div class="skill-label"><i class="fab fa-java java-color"></i><span>Java</span></div>
+                        <span class="skill-pct">75%</span>
+                    </div>
+                    <div class="skill-track"><div class="skill-fill" data-width="75"></div></div>
+                </div>
+                <div class="skill-item" data-category="backend">
+                    <div class="skill-top">
+                        <div class="skill-label"><i class="fab fa-git-alt git-color"></i><span>Git &amp; GitHub</span></div>
+                        <span class="skill-pct">80%</span>
+                    </div>
+                    <div class="skill-track"><div class="skill-fill" data-width="80"></div></div>
+                </div>
+                <div class="skill-item" data-category="backend">
+                    <div class="skill-top">
+                        <div class="skill-label"><i class="fas fa-database"></i><span>MySQL</span></div>
+                        <span class="skill-pct">75%</span>
+                    </div>
+                    <div class="skill-track"><div class="skill-fill" data-width="75"></div></div>
+                </div>
+                <div class="skill-item" data-category="backend">
+                    <div class="skill-top">
+                        <div class="skill-label"><i class="fas fa-cube"></i><span>Node.js</span></div>
+                        <span class="skill-pct">70%</span>
+                    </div>
+                    <div class="skill-track"><div class="skill-fill" data-width="70"></div></div>
+                </div>
+                <div class="skill-item" data-category="frameworks">
+                    <div class="skill-top">
+                        <div class="skill-label"><i class="fas fa-wind"></i><span>Tailwind CSS</span></div>
+                        <span class="skill-pct">80%</span>
+                    </div>
+                    <div class="skill-track"><div class="skill-fill" data-width="80"></div></div>
+                </div>
+                <div class="skill-item" data-category="backend">
+                    <div class="skill-top">
+                        <div class="skill-label"><i class="fas fa-layer-group"></i><span>REST APIs</span></div>
+                        <span class="skill-pct">75%</span>
+                    </div>
+                    <div class="skill-track"><div class="skill-fill" data-width="75"></div></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">03 &mdash; Achievements</span>
+                <h2 class="section-title">Milestones</h2>
+            </div>
+            <div class="achievements-grid">
+                <div class="ach-card">
+                    <div class="ach-icon-wrap"><i class="fas fa-trophy"></i></div>
+                    <div class="ach-body">
+                        <span class="ach-year">2024</span>
+                        <h3>Award Title</h3>
+                        <p class="ach-org">Organization / Event</p>
+                        <p>Description of the award or recognition received for your outstanding work.</p>
+                    </div>
+                </div>
+                <div class="ach-card">
+                    <div class="ach-icon-wrap"><i class="fas fa-medal"></i></div>
+                    <div class="ach-body">
+                        <span class="ach-year">2024</span>
+                        <h3>Hackathon Winner</h3>
+                        <p class="ach-org">Competition Name</p>
+                        <p>Won first place among 200+ participants in a national-level coding competition.</p>
+                    </div>
+                </div>
+                <div class="ach-card">
+                    <div class="ach-icon-wrap"><i class="fas fa-chart-line"></i></div>
+                    <div class="ach-body">
+                        <span class="ach-year">2024</span>
+                        <h3>Performance Award</h3>
+                        <p class="ach-org">Project / Company</p>
+                        <p>Improved application performance by 40% through code optimization and best practices.</p>
+                    </div>
+                </div>
+                <div class="ach-card">
+                    <div class="ach-icon-wrap"><i class="fas fa-users"></i></div>
+                    <div class="ach-body">
+                        <span class="ach-year">2023</span>
+                        <h3>Team Leadership</h3>
+                        <p class="ach-org">Project / Event</p>
+                        <p>Led a team of 5 developers to deliver a major project ahead of schedule.</p>
+                    </div>
+                </div>
+                <div class="ach-card">
+                    <div class="ach-icon-wrap"><i class="fas fa-rocket"></i></div>
+                    <div class="ach-body">
+                        <span class="ach-year">2024</span>
+                        <h3>Product Launch</h3>
+                        <p class="ach-org">Project Name</p>
+                        <p>Developed a feature that increased user engagement by 35% in 3 months.</p>
+                    </div>
+                </div>
+                <div class="ach-card">
+                    <div class="ach-icon-wrap"><i class="fas fa-star"></i></div>
+                    <div class="ach-body">
+                        <span class="ach-year">2023</span>
+                        <h3>Top Performer</h3>
+                        <p class="ach-org">Certification Provider</p>
+                        <p>Earned certification scoring in the top 5% among all candidates worldwide.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">04 &mdash; Projects</span>
+                <h2 class="section-title">Work</h2>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="C:\Users\nithy\OneDrive\Desktop\portfolio\images\project1.png" alt="Project 1">
+                        <div class="project-links">
+                            <a href="https://delivery-tracker-nu.vercel.app/" class="proj-btn" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i> Live</a>
+                            <a href="https://github.com/Nithya2709/delivery-tracker" class="proj-btn" aria-label="GitHub"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-num">01</span>
+                        <h3>Delivery Tracker</h3>
+                        <p>A real-time delivery tracking web application designed to monitor order status and delivery progress. 
+Built with a responsive interface to provide users with clear and efficient tracking updates</p>
+                        <div class="project-tags">
+                            <span>React</span><span>Node js </span><span>REST API</span><span>MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="C:\Users\nithy\OneDrive\Desktop\portfolio\images\project2.png" alt="Project 2">
+                        <div class="project-links">
+                            <a href="https://nithya2709.github.io/CrowdTesting/" class="proj-btn" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i> Live</a>
+                            <a href="https://github.com/Nithya2709/CrowdTesting" class="proj-btn" aria-label="GitHub"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-num">02</span>
+                        <h3>CrowdTest</h3>
+                        <p>CrowdTest is a lightweight, responsive web application that connects developers and non-professional testers to crowdsource bug reports, making testing simpler and more effective.</p>
+                        <div class="project-tags">
+                            <span>HTML</span><span>CSS</span><span>Firebase</span><span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img">
+                        <img src="C:\Users\nithy\OneDrive\Desktop\portfolio\images\project-3.png" alt="Project 3">
+                        <div class="project-links">
+                            <a href="https://github.com/Nithya2709/Space-debris-ML"" class="proj-btn" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i> Live</a>
+                            <a href="https://github.com/Nithya2709/Space-debris-ML" class="proj-btn" aria-label="GitHub"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <span class="project-num">03</span>
+                        <h3>Space Debris ML</h3>
+                        <p>A machine learning-based system that analyzes satellite orbital data to detect and track space debris. 
+The project processes TLE datasets and applies ML models to identify potential debris objects and analyze their orbital behavior.</p>
+                        <div class="project-tags">
+                            <span>Python</span><span>Machine Learning</span><span>Matplotlib</span><span>TLE Orbital Data</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">05 &mdash; Certificates</span>
+                <h2 class="section-title">Credentials</h2>
+            </div>
+            <div class="certs-grid">
+                <div class="cert-card">
+                    <div class="cert-img">
+                        <img src="C:\Users\nithy\OneDrive\Desktop\portfolio\images\efset.png" alt="Certificate 1">
+                        <div class="cert-overlay">
+                            <a href="https://drive.google.com/file/d/1cZNAU8BMcyesgtbnntDyjx6SrXt19Drb/view?usp=sharing" aria-label="View"><i class="fas fa-eye"></i></a>
+                            <a href="https://drive.google.com/file/d/1cZNAU8BMcyesgtbnntDyjx6SrXt19Drb/download" aria-label="Download"><i class="fas fa-download"></i></a>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>EF SET</h3>
+                        <p>English Proficiency &middot; 2026</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-img">
+                        <img src="C:\Users\nithy\OneDrive\Desktop\portfolio\images\frontend.png" alt="Certificate 2">
+                        <div class="cert-overlay">
+                            <a href="https://drive.google.com/file/d/1l-K3X--w5DMGrCQKBN5qSZi42W2nsPSg/view?usp=sharing" aria-label="View"><i class="fas fa-eye"></i></a>
+                            <a href="https://drive.google.com/file/d/1l-K3X--w5DMGrCQKBN5qSZi42W2nsPSg/download" aria-label="Download"><i class="fas fa-download"></i></a>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Frontend Development</h3>
+                        <p>Programming &middot; 2025</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-img">
+                        <img src="C:\Users\nithy\OneDrive\Desktop\portfolio\images\oracle.png" alt="Certificate 2">
+                        <div class="cert-overlay">
+                            <a href="https://drive.google.com/file/d/1wGJiSFn4TLhfO-kSg_crFlDH_HVW7ja5/view?usp=sharing" aria-label="View"><i class="fas fa-eye"></i></a>
+                            <a href="https://drive.google.com/file/d/1wGJiSFn4TLhfO-kSg_crFlDH_HVW7ja5/download" aria-label="Download"><i class="fas fa-download"></i></a>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Java Fundamentals</h3>
+                        <p>Programming &middot; 2024</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-img">
+                        <img src="C:\Users\nithy\OneDrive\Desktop\portfolio\images\oracle.png" alt="Certificate 2">
+                        <div class="cert-overlay">
+                            <a href="" aria-label="View"><i class="fas fa-eye"></i></a>
+                            <a href="https://drive.google.com/file/d/1wGJiSFn4TLhfO-kSg_crFlDH_HVW7ja5/download" aria-label="Download"><i class="fas fa-download"></i></a>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>Java Fundamentals</h3>
+                        <p>Programming &middot; 2024</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-img">
+                        <img src="C:\Users\nithy\OneDrive\Desktop\portfolio\images\afe.png" alt="Certificate 3">
+                        <div class="cert-overlay">
+                            <a href="https://drive.google.com/file/d/1kise_Lmzxf2VC-SiCFnpWxLmibrD3zM6/view?usp=sharing" aria-label="View"><i class="fas fa-eye"></i></a>
+                            <a href="https://drive.google.com/file/d/1kise_Lmzxf2VC-SiCFnpWxLmibrD3zM6/download" aria-label="Download"><i class="fas fa-download"></i></a>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>AI</h3>
+                        <p>Programming &middot; 2025</p>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-img">
+                        <img src="C:\Users\nithy\OneDrive\Desktop\portfolio\images\agentforce.png" alt="Certificate 3">
+                        <div class="cert-overlay">
+                            <a href="https://drive.google.com/file/d/1vsO1co103p_Hf8zsPhm0R4hI9atqAaRM/view?usp=sharing" aria-label="View"><i class="fas fa-eye"></i></a>
+                            <a href="https://drive.google.com/file/d/1vsO1co103p_Hf8zsPhm0R4hI9atqAaRM/download" aria-label="Download"><i class="fas fa-download"></i></a>
+                        </div>
+                    </div>
+                    <div class="cert-info">
+                        <h3>AgentForce</h3>
+                        <p>Salesforce &middot; 2025</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume CTA Section -->
+    <section id="resume" class="resume-section">
+        <div class="container">
+            <div class="resume-cta">
+                <div class="resume-text">
+                    <h2>Let's work together<span class="accent">.</span></h2>
+                    <p>Actively looking for internships and part-time opportunities. Download my resume or reach out directly.</p>
+                </div>
+                <div class="resume-btns">
+                    <a href="#" class="btn btn-primary"><i class="fas fa-eye"></i> View Resume</a>
+                    <a href="#" class="btn btn-outline"><i class="fas fa-download"></i> Download PDF</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">06 &mdash; Contact</span>
+                <h2 class="section-title">Get In Touch</h2>
+            </div>
+            <div class="contact-layout">
+                <div class="contact-form-side">
+                    <form class="contact-form" id="contact-form">
+                        <div class="form-row">
+                            <div class="form-field">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" placeholder="Your full name" required>
+                            </div>
+                            <div class="form-field">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+                        <div class="form-field">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" placeholder="What's this about?">
+                        </div>
+                        <div class="form-field">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full" id="submit-btn">
+                            <i class="fas fa-paper-plane"></i> Send Message
+                        </button>
+                        <p class="form-success" id="form-success" style="display:none;">&#10003; Message sent! I'll get back to you soon.</p>
+                        <p class="form-error" id="form-error" style="display:none; color: #ef4444;">&#10007; Something went wrong. Please try again.</p>
+                    </form>
+                </div>
+
+                <div class="contact-info-side">
+                    <div class="contact-card">
+                        <div class="cc-icon"><i class="fas fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:23211a05d5@gmail.com">23211a05d5@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="cc-icon"><i class="fas fa-phone"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+91 8179799508">+91 8179799508</a>
+                        </div>
+                    </div>
+                    <div class="contact-card">
+                        <div class="cc-icon"><i class="fas fa-map-marker-alt"></i></div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Hyderabad, Telangana, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-socials">
+                        <a href="https://www.linkedin.com/in/kapuganti-nithya-sree-43b248293/" class="cs-link" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/Nithya2709" class="cs-link" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/i_am_nithya__/" class="cs-link" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-inner">
+                <p class="footer-logo">NS<span class="accent">.</span></p>
+                <p class="footer-copy">&copy; 2025 Nithya Sree &mdash; Crafted with <i class="fas fa-heart"></i></p>
+                <div class="footer-links">
+                    <a href="#home">Top</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+    <!-- Contact Form Backend Integration -->
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', async function (e) {
+            e.preventDefault();
+
+            const btn = document.getElementById('submit-btn');
+            const successMsg = document.getElementById('form-success');
+            const errorMsg = document.getElementById('form-error');
+
+            // Reset messages
+            successMsg.style.display = 'none';
+            errorMsg.style.display = 'none';
+
+            // Loading state
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Sending...';
+
+            const data = {
+                name: document.getElementById('name').value.trim(),
+                email: document.getElementById('email').value.trim(),
+                subject: document.getElementById('subject').value.trim(),
+                message: document.getElementById('message').value.trim()
+            };
+
+            try {
+                const res = await fetch('http://localhost:5000/api/contact', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+
+                const result = await res.json();
+
+                if (result.success) {
+                    successMsg.style.display = 'block';
+                    this.reset();
+                } else {
+                    errorMsg.textContent = '✗ ' + (result.message || 'Something went wrong. Please try again.');
+                    errorMsg.style.display = 'block';
+                }
+            } catch (err) {
+                errorMsg.textContent = '✗ Could not reach server. Make sure your backend is running.';
+                errorMsg.style.display = 'block';
+            } finally {
+                btn.disabled = false;
+                btn.innerHTML = '<i class="fas fa-paper-plane"></i> Send Message';
+            }
+        });
+    </script>
+
+</body>
+</html>
